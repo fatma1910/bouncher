@@ -13,7 +13,7 @@ const About = () => {
         whileInView='show'
         viewport={{ once: false , amount: 0.2 }}
     className=" pt-[183px] pb-24 px-4 md:px-10 lg:px-[80px] flex flex-col lg:flex-row items-center gap-10 leading-10" id="about">
-      <Image src='/about.jfif' alt="about" width={630} height={679} className="max-w-full h-auto" />
+      <Image src='/about.webp' alt="about" width={630} height={679} className="max-w-full h-auto" />
       <div className="flex flex-col w-full">
         <div className="pl-3 border-l-[6px] border-primary">
           <h2 className="text-[28px] md:text-[36px] text-white font-semibold uppercase">
