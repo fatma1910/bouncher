@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -11,7 +12,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: '#D5BE7B',
       },
+      fontFamily: {
+        comic: ['Comic Sans MS', 'cursive'],
+        niconne: ['Niconne','cursive']
+      },
+
     },
   },
   plugins: [],
